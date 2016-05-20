@@ -1,0 +1,199 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    color: #fff;
+    max-width: 800px;
+    background-color:#0b486b;
+}
+#Head_1{
+    width: 100%;
+    background-color: #003553;
+    max-height: 60px;
+}
+a{
+    text-decoration: none;font-size: 20px;
+    color: #fff;
+}
+#aButton{
+    width: 84%;
+    background-color: #003553;
+    margin: 10px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+    margin:2% auto;
+}
+#bButton{
+    width: 84%;
+    background-color: #003553;
+    margin:2% auto;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+
+}
+#eButton{
+    width: 84%;
+    background-color: #003553;
+    margin:2% auto;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+
+}
+#fButton{
+    width: 84%;
+    background-color: #003553;
+    margin:2% auto;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+
+}
+#gButton{
+    width: 84%;
+    background-color: #003553;
+    margin:2% auto;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+
+}
+#hButton{
+    width: 84%;
+    background-color: #003553;
+    margin:2% auto;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+
+}
+#xButton{
+    width: 84%;
+    background-color: #003553;
+    margin:2% auto;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+
+}
+#yButton{
+    width: 84%;
+    background-color: #003553;
+    margin:2% auto;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+
+}
+
+#dButton{
+    width: 84%;
+    background-color: #003553;
+    margin: 10px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+    margin:2% auto;
+}
+.Button a{
+    text-decoration: none;font-size: 20px;
+    color: #fff;
+    display: block;
+}
+#Contor1{
+    width: 74%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Contor2{
+    width: 74%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Contor4{
+    width: 74%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Contor5{
+    width: 74%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Contor6{
+    width: 74%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Contor7{
+    width: 74%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Contor8{
+    width: 74%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Contor9{
+    width: 74%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Contor10{
+    width: 74%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p{
+    margin: 0 auto;
+    padding: 10px;
+}
+#Button2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#Button button{
+    background-color: #900;
+    color: #fff;
+}
+#Button2 a{
+    margin: 0 20px;
+}
+input{
+    background-color:#fff;
+    border: none;
+    float: left;
+    padding:6px 0;
+    margin-left: 5%;
+    margin-top: 5px;
+    color:#111;;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    width: 47%;
+}
+.del
+{
+    cursor: pointer;
+    font-size: 36px;
+}
+

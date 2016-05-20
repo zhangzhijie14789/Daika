@@ -1,0 +1,526 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset='UTF-8'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-320x460.png" />
+    <meta name="author" content="FamousThemes" />
+    <meta name="description" content="GoMobile - A next generation web app theme" />
+    <meta name="keywords" content="mobile web app, mobile template, mobile design, mobile app design, mobile app theme, mobile wordpress theme, my mobile app" />
+    <link rel="stylesheet" href="Style/Page_kaoqin.css">
+    <title>kaoqin</title>
+
+    <script type="text/javascript" language="JavaScript">
+        function showdiv1() {
+            document.getElementById('Contor1').style.display = "block";
+            document.getElementById('aButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref1').href = "javascript:hiddendiv1()";
+            document.getElementById('aButton').innerHTML = "工段长<img id=\"img_1\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            document.getElementById('img_1').style.display = "none";
+        }
+        function hiddendiv1() {
+            document.getElementById('Contor1').style.display = "none";
+            document.getElementById('img_1').style.display = "block";
+            document.getElementById('aButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref1').href = "javascript:showdiv1()";
+            if (addTable1.rows.length > 0) {
+                document.getElementById('aButton').innerHTML = "工段长 " + addTable1.rows.length + "人<img id=\"img_1\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            }
+        }
+
+        function showdiv2() {
+            document.getElementById('Contor2').style.display = "block";
+            document.getElementById('bButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref2').href = "javascript:hiddendiv2()";
+            document.getElementById('bButton').innerHTML = "研磨工<img id=\"img_2\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            document.getElementById('img_2').style.display = "none";
+        }
+        function hiddendiv2() {
+            document.getElementById('Contor2').style.display = "none";
+            document.getElementById('img_2').style.display = "block";
+            document.getElementById('bButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref2').href = "javascript:showdiv2()"
+            if (addTable2.rows.length > 0) {
+                document.getElementById('bButton').innerHTML = "研磨工 " + addTable2.rows.length + "人<img id=\"img_2\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            }
+        }
+
+
+        function showdiv4() {
+            document.getElementById('Contor4').style.display = "block";
+            document.getElementById('dButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref4').href = "javascript:hiddendiv4()";
+            document.getElementById('dButton').innerHTML = "操作手<img id=\"img_5\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            document.getElementById('img_5').style.display = "none";
+        }
+        function hiddendiv4() {
+            document.getElementById('Contor4').style.display = "none";
+            document.getElementById('img_5').style.display = "block";
+            document.getElementById('dButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref4').href = "javascript:showdiv4()"
+            if (addTable4.rows.length > 0) {
+                document.getElementById('dButton').innerHTML = "操作手 " + addTable4.rows.length + "人<img id=\"img_5\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            }
+        }
+        function showdiv5() {
+            document.getElementById('Contor5').style.display = "block";
+            document.getElementById('eButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref5').href = "javascript:hiddendiv5()";
+            document.getElementById('eButton').innerHTML = "检查员<img id=\"img_e\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            document.getElementById('img_e').style.display = "none";
+        }
+        function hiddendiv5() {
+            document.getElementById('Contor5').style.display = "none";
+            document.getElementById('img_e').style.display = "block";
+            document.getElementById('eButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref5').href = "javascript:showdiv5()"
+            if (addTable5.rows.length > 0) {
+                document.getElementById('eButton').innerHTML = "检查员 " + addTable5.rows.length + "人<img id=\"img_e\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            }
+        }
+        function showdiv6() {
+            document.getElementById('Contor6').style.display = "block";
+            document.getElementById('fButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref6').href = "javascript:hiddendiv6()";
+            document.getElementById('fButton').innerHTML = "辅助工<img id=\"img_f\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            document.getElementById('img_f').style.display = "none";
+        }
+        function hiddendiv6() {
+            document.getElementById('Contor6').style.display = "none";
+            document.getElementById('img_f').style.display = "block";
+            document.getElementById('fButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref6').href = "javascript:showdiv6()"
+            if (addTable6.rows.length > 0) {
+                document.getElementById('fButton').innerHTML = "辅助工 " + addTable6.rows.length + "人<img id=\"img_f\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            }
+        }
+        function showdiv7() {
+            document.getElementById('Contor7').style.display = "block";
+            document.getElementById('gButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref7').href = "javascript:hiddendiv7()";
+            document.getElementById('gButton').innerHTML = "精车上线<img id=\"img_g\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            document.getElementById('img_g').style.display = "none";
+        }
+        function hiddendiv7() {
+            document.getElementById('Contor7').style.display = "none";
+            document.getElementById('img_g').style.display = "block";
+            document.getElementById('gButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref7').href = "javascript:showdiv7()"
+            if (addTable7.rows.length > 0) {
+                document.getElementById('gButton').innerHTML = "精车上线 " + addTable7.rows.length + "人<img id=\"img_g\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            }
+        }
+        function showdiv8() {
+            document.getElementById('Contor8').style.display = "block";
+            document.getElementById('hButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref8').href = "javascript:hiddendiv8()";
+            document.getElementById('hButton').innerHTML = "毛坯上线<img id=\"img_h\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            document.getElementById('img_h').style.display = "none";
+        }
+        function hiddendiv8() {
+            document.getElementById('Contor8').style.display = "none";
+            document.getElementById('img_h').style.display = "block";
+            document.getElementById('hButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref8').href = "javascript:showdiv8()"
+            if (addTable8.rows.length > 0) {
+                document.getElementById('hButton').innerHTML = "毛坯上线 " + addTable8.rows.length + "人<img id=\"img_h\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            }
+        }
+        function showdiv9() {
+            document.getElementById('Contor9').style.display = "block";
+            document.getElementById('xButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref9').href = "javascript:hiddendiv9()";
+            document.getElementById('xButton').innerHTML = "转线<img id=\"img_x\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            document.getElementById('img_x').style.display = "none";
+        }
+        function hiddendiv9() {
+            document.getElementById('Contor9').style.display = "none";
+            document.getElementById('img_x').style.display = "block";
+            document.getElementById('xButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref9').href = "javascript:showdiv9()"
+            if (addTable9.rows.length > 0) {
+                document.getElementById('xButton').innerHTML = "转线 " + addTable9.rows.length + "人<img id=\"img_x\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            }
+        }
+        function showdiv10() {
+            document.getElementById('Contor10').style.display = "block";
+            document.getElementById('yButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref10').href = "javascript:hiddendiv10()";
+            document.getElementById('yButton').innerHTML = "印LOGO<img id=\"img_y\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            document.getElementById('img_y').style.display = "none";
+        }
+        function hiddendiv10() {
+            document.getElementById('Contor10').style.display = "none";
+            document.getElementById('img_y').style.display = "block";
+            document.getElementById('yButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref10').href = "javascript:showdiv10()"
+            if (addTable10.rows.length > 0) {
+                document.getElementById('yButton').innerHTML = "印LOGO " + addTable10.rows.length + "人<img id=\"img_y\" alt=\"展开\" style=\"width: 10%; max-width:20px;float: right; margin-top: 1%\" src=\"img/121.png\" />";
+            }
+        }
+
+
+
+    </script>
+    <script type="text/javascript" language="JavaScript">
+        var i = 0;
+        function aObject(l) {
+            i = l;
+        }
+        function Alert() {
+            document.getElementById('Object').action = "kaoqin.aspx?k=" + GetQueryString("k");
+            if (i != 0) {
+                var a = confirm(i == 1 ? "确定要保存吗？" : "确定要提交吗？");
+                if (a == true) {
+                    if (i == 1) {
+                        document.getElementById('Object').action += "&save=1";
+                    }
+                    else if (i == 2) {
+                        document.getElementById('Object').action += "&submit=1";
+                    }
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+        }
+    </script>
+    <script type="text/javascript" language="javascript">
+        function ym_add() {
+            var newLine = addTable1.rows.length;
+            if (newLine == 0) {
+                var row = addTable1.insertRow(newLine);
+                var col = row.insertCell(0);
+                col.innerHTML = "<input type='text' name='bz_mz_" + newLine + "' id='bz_mz_" + newLine + "' /><a class='del' id='bz_del_" + newLine + "' onclick='delrow(" + newLine + ")'>×</a>";
+            }
+        }
+        function delrow(index) {
+            addTable1.deleteRow(index);
+            for (var i = index + 1; i <= addTable1.rows.length; i++) {
+                var ipt = document.getElementById("bz_mz_" + i);
+                ipt.setAttribute("id", "bz_mz_" + (i - 1).toString());
+                ipt.setAttribute("name", "bz_mz_" + (i - 1).toString());
+                var lab_del = document.getElementById("bz_del_" + i);
+                lab_del.setAttribute("id", "bz_del_" + (i - 1).toString());
+                lab_del.setAttribute("onclick", "delrow(" + (i - 1).toString() + ")");
+            }
+        }
+        function ym_add1() {
+            var newLine = addTable2.rows.length;
+            var row = addTable2.insertRow(newLine);
+            var col = row.insertCell(0);
+            col.innerHTML = "<input type='text' name='ym_mz_" + newLine + "' id='ym_mz_" + newLine + "' /><a class='del' id='ym_del_" + newLine + "' onclick='delrow1(" + newLine + ")'>×</a>";
+        }
+        function delrow1(index) {
+            addTable2.deleteRow(index);
+            for (var i = index + 1; i <= addTable2.rows.length; i++) {
+                var ipt = document.getElementById("ym_mz_" + i);
+                ipt.setAttribute("id", "ym_mz_" + (i - 1).toString());
+                ipt.setAttribute("name", "ym_mz_" + (i - 1).toString());
+                var lab_del = document.getElementById("ym_del_" + i);
+                lab_del.setAttribute("id", "ym_del_" + (i - 1).toString());
+                lab_del.setAttribute("onclick", "delrow1(" + (i - 1).toString() + ")");
+            }
+        }
+        function ym_add2() {
+            var newLine = addTable4.rows.length;
+            var row = addTable4.insertRow(newLine);
+            var col = row.insertCell(0);
+            col.innerHTML = "<input type='text' name='cz_mz_" + newLine + "' id='cz_mz_" + newLine + "' /><a class='del' id='cz_del_" + newLine + "' onclick='delrow2(" + newLine + ")'>×</a>";
+        }
+        function delrow2(index) {
+            addTable4.deleteRow(index);
+            for (var i = index + 1; i <= addTable4.rows.length; i++) {
+                var ipt = document.getElementById("cz_mz_" + i);
+                ipt.setAttribute("id", "cz_mz_" + (i - 1).toString());
+                ipt.setAttribute("name", "cz_mz_" + (i - 1).toString());
+                var lab_del = document.getElementById("cz_del_" + i);
+                lab_del.setAttribute("id", "cz_del_" + (i - 1).toString());
+                lab_del.setAttribute("onclick", "delrow2(" + (i - 1).toString() + ")");
+            }
+        }
+        function ym_add3() {
+            var newLine = addTable5.rows.length;
+            var row = addTable5.insertRow(newLine);
+            var col = row.insertCell(0);
+            col.innerHTML = "<input type='text' name='jc_mz_" + newLine + "' id='jc_mz_" + newLine + "' /><a class='del' id='jc_del_" + newLine + "' onclick='delrow3(" + newLine + ")'>×</a>";
+        }
+        function delrow3(index) {
+            addTable5.deleteRow(index);
+            for (var i = index + 1; i <= addTable5.rows.length; i++) {
+                var ipt = document.getElementById("jc_mz_" + i);
+                ipt.setAttribute("id", "jc_mz_" + (i - 1).toString());
+                ipt.setAttribute("name", "jc_mz_" + (i - 1).toString());
+                var lab_del = document.getElementById("jc_del_" + i);
+                lab_del.setAttribute("id", "jc_del_" + (i - 1).toString());
+                lab_del.setAttribute("onclick", "delrow3(" + (i - 1).toString() + ")");
+            }
+        }
+        function ym_add4() {
+            var newLine = addTable6.rows.length;
+            var row = addTable6.insertRow(newLine);
+            var col = row.insertCell(0);
+            col.innerHTML = "<input type='text' name='fz_mz_" + newLine + "' id='fz_mz_" + newLine + "' /><a class='del' id='fz_del_" + newLine + "' onclick='delrow4(" + newLine + ")'>×</a>";
+        }
+        function delrow4(index) {
+            addTable6.deleteRow(index);
+            for (var i = index + 1; i <= addTable6.rows.length; i++) {
+                var ipt = document.getElementById("fz_mz_" + i);
+                ipt.setAttribute("id", "fz_mz_" + (i - 1).toString());
+                ipt.setAttribute("name", "fz_mz_" + (i - 1).toString());
+                var lab_del = document.getElementById("fz_del_" + i);
+                lab_del.setAttribute("id", "fz_del_" + (i - 1).toString());
+                lab_del.setAttribute("onclick", "delrow4(" + (i - 1).toString() + ")");
+            }
+        }
+        function ym_add5() {
+            var newLine = addTable7.rows.length;
+            var row = addTable7.insertRow(newLine);
+            var col = row.insertCell(0);
+            col.innerHTML = "<input type='text' name='js_mz_" + newLine + "' id='js_mz_" + newLine + "' /><a class='del' id='js_del_" + newLine + "' onclick='delrow5(" + newLine + ")'>×</a>";
+        }
+        function delrow5(index) {
+            addTable7.deleteRow(index);
+            for (var i = index + 1; i <= addTable7.rows.length; i++) {
+                var ipt = document.getElementById("js_mz_" + i);
+                ipt.setAttribute("id", "js_mz_" + (i - 1).toString());
+                ipt.setAttribute("name", "js_mz_" + (i - 1).toString());
+                var lab_del = document.getElementById("js_del_" + i);
+                lab_del.setAttribute("id", "js_del_" + (i - 1).toString());
+                lab_del.setAttribute("onclick", "delrow5(" + (i - 1).toString() + ")");
+            }
+        }
+        function ym_add6() {
+            var newLine = addTable8.rows.length;
+            var row = addTable8.insertRow(newLine);
+            var col = row.insertCell(0);
+            col.innerHTML = "<input type='text' name='ms_mz_" + newLine + "' id='ms_mz_" + newLine + "' /><a class='del' id='ms_del_" + newLine + "' onclick='delrow6(" + newLine + ")'>×</a>";
+        }
+        function delrow6(index) {
+            addTable8.deleteRow(index);
+            for (var i = index + 1; i <= addTable8.rows.length; i++) {
+                var ipt = document.getElementById("ms_mz_" + i);
+                ipt.setAttribute("id", "ms_mz_" + (i - 1).toString());
+                ipt.setAttribute("name", "ms_mz_" + (i - 1).toString());
+                var lab_del = document.getElementById("ms_del_" + i);
+                lab_del.setAttribute("id", "ms_del_" + (i - 1).toString());
+                lab_del.setAttribute("onclick", "delrow6(" + (i - 1).toString() + ")");
+            }
+        }
+        function ym_add7() {
+            var newLine = addTable9.rows.length;
+            var row = addTable9.insertRow(newLine);
+            var col = row.insertCell(0);
+            col.innerHTML = "<input type='text' name='zx_mz_" + newLine + "' id='zx_mz_" + newLine + "' /><a class='del' id='zx_del_" + newLine + "' onclick='delrow7(" + newLine + ")'>×</a>";
+        }
+        function delrow7(index) {
+            addTable9.deleteRow(index);
+            for (var i = index + 1; i <= addTable9.rows.length; i++) {
+                var ipt = document.getElementById("zx_mz_" + i);
+                ipt.setAttribute("id", "zx_mz_" + (i - 1).toString());
+                ipt.setAttribute("name", "zx_mz_" + (i - 1).toString());
+                var lab_del = document.getElementById("zx_del_" + i);
+                lab_del.setAttribute("id", "zx_del_" + (i - 1).toString());
+                lab_del.setAttribute("onclick", "delrow7(" + (i - 1).toString() + ")");
+            }
+        }
+        function ym_add8() {
+            var newLine = addTable10.rows.length;
+            var row = addTable10.insertRow(newLine);
+            var col = row.insertCell(0);
+            col.innerHTML = "<input type='text' name='yl_mz_" + newLine + "' id='yl_mz_" + newLine + "' /><a class='del' id='yl_del_" + newLine + "' onclick='delrow8(" + newLine + ")'>×</a>";
+        }
+        function delrow8(index) {
+            addTable10.deleteRow(index);
+            for (var i = index + 1; i <= addTable10.rows.length; i++) {
+                var ipt = document.getElementById("yl_mz_" + i);
+                ipt.setAttribute("id", "yl_mz_" + (i - 1).toString());
+                ipt.setAttribute("name", "yl_mz_" + (i - 1).toString());
+                var lab_del = document.getElementById("yl_del_" + i);
+                lab_del.setAttribute("id", "yl_del_" + (i - 1).toString());
+                lab_del.setAttribute("onclick", "delrow8(" + (i - 1).toString() + ")");
+            }
+        }
+    </script>
+</head>
+<body>
+<form id="Object" action="kaoqin.aspx" onsubmit="return Alert()" method="post" runat="server">
+    <div id="Head_1">
+        <table style="width: 100%; text-align: center">
+            <tr >
+                <td>
+                    <a id="back" runat="server" href="index.html">
+                        <img style="width: 65%; max-width: 40px" src="img/115.png" alt="返回" />
+                    </a>
+                </td>
+                <td>
+                    <p>考勤</p>
+                </td>
+                <td>
+                    <a id="fac" AutoPostBack="True" onserverclick="fac_ServerClick" onclick="aObject(0)" runat="server">
+                        <img style="width: 65%; max-width: 40px" id="caocao_pic" alt="工厂" src="img/116.png" runat="server" />
+                        <input type="hidden" name="facIndex" value="1" id="facIndex" runat="server" />
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <a href="javascript:showdiv1()" id="strHref1">
+        <p id="aButton" runat="server">
+            工段长<img id="img_1" alt="展开" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png" />
+        </p>
+    </a>
+    <div id="Contor1" style="display: none">
+        <table style="width: 100%;font-size: 14px; " id="addTable1" runat="server">
+
+        </table>
+        <div class="HeadList">
+            <a onclick="ym_add()" id="btn_add_1" runat="server"><img alt="添加" width="30%" src="img/112.png" /></a>
+            <a onclick="hiddendiv1()"><img alt="收起" width="30%" src="img/114.png" /></a>
+        </div>
+    </div>
+    <a href="javascript:showdiv2()" id="strHref2">
+        <p id="bButton" runat="server">
+            研磨工<img id="img_2" alt="展开" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png" />
+        </p></a>
+    <div id="Contor2" style="display: none">
+
+        <table width="100%" id="addTable2" style="text-align: center" runat="server">
+        </table>
+        <div class="HeadList">
+            <a onclick="ym_add1()" id="btn_add_2" runat="server"><img alt="添加" width="30%" src="img/112.png" /></a>
+            <a onclick="hiddendiv2()"><img alt="收起" width="30%" src="img/114.png" /></a>
+        </div>
+    </div>
+
+    <a href="javascript:showdiv4()" id="strHref4" >
+        <p id="dButton" runat="server">
+            操作手<img id="img_5" alt="展开" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png" />
+        </p></a>
+    <div id="Contor4" style="display: none">
+        <table style="width: 100%;font-size: 14px; ">
+
+        </table>
+        <table width="100%" id="addTable4" style="text-align: center" runat="server">
+        </table>
+        <table class="HeadList">
+            <a onclick="ym_add2()" id="btn_add_3" runat="server"><img alt="添加" width="30%" src="img/112.png" /></a>
+            <a onclick="hiddendiv4()"><img alt="收起" width="30%" src="img/114.png" /></a>
+        </table>
+    </div>
+
+    <a href="javascript:showdiv5()" id="strHref5" >
+        <p id="eButton" runat="server">
+            检察员<img id="img_e" alt="展开" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png" />
+        </p></a>
+    <div id="Contor5" style="display: none">
+        <table style="width: 100%;font-size: 14px; ">
+
+        </table>
+        <table width="100%" id="addTable5" style="text-align: center" runat="server">
+        </table>
+        <table class="HeadList">
+            <a onclick="ym_add3()" id="btn_add_4" runat="server"><img alt="添加" width="30%" src="img/112.png" /></a>
+            <a onclick="hiddendiv5()"><img alt="收起" width="30%" src="img/114.png" /></a>
+        </table>
+    </div>
+
+    <a href="javascript:showdiv6()" id="strHref6" >
+        <p id="fButton" runat="server">
+            辅助工<img id="img_f" alt="展开" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png" />
+        </p></a>
+    <div id="Contor6" style="display: none">
+        <table style="width: 100%;font-size: 14px; ">
+
+        </table>
+        <table width="100%" id="addTable6" style="text-align: center" runat="server">
+        </table>
+        <table class="HeadList">
+            <a onclick="ym_add4()" id="btn_add_5" runat="server"><img alt="添加" width="30%" src="img/112.png" /></a>
+            <a onclick="hiddendiv6()"><img alt="收起" width="30%" src="img/114.png" /></a>
+        </table>
+    </div>
+
+    <a href="javascript:showdiv7()" id="strHref7" >
+        <p id="gButton" runat="server">
+            精车上线<img id="img_g" alt="展开" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png" />
+        </p></a>
+    <div id="Contor7" style="display: none">
+        <table style="width: 100%;font-size: 14px; ">
+
+        </table>
+        <table width="100%" id="addTable7" style="text-align: center" runat="server">
+        </table>
+        <table class="HeadList">
+            <a onclick="ym_add5()" id="btn_add_6" runat="server"><img alt="添加" width="30%" src="img/112.png" /></a>
+            <a onclick="hiddendiv7()"><img alt="收起" width="30%" src="img/114.png" /></a>
+        </table>
+    </div>
+
+    <a href="javascript:showdiv8()" id="strHref8" >
+        <p id="hButton" runat="server">
+            毛坯上线<img id="img_h" alt="展开" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png" />
+        </p></a>
+    <div id="Contor8" style="display: none">
+        <table style="width: 100%;font-size: 14px; ">
+
+        </table>
+        <table width="100%" id="addTable8" style="text-align: center" runat="server">
+        </table>
+        <table class="HeadList">
+            <a onclick="ym_add6()" id="btn_add_7" runat="server"><img alt="添加" width="30%" src="img/112.png" /></a>
+            <a onclick="hiddendiv8()"><img alt="收起" width="30%" src="img/114.png" /></a>
+        </table>
+    </div>
+
+    <a href="javascript:showdiv9()" id="strHref9" >
+        <p id="xButton" runat="server">
+            转线<img id="img_x" alt="展开" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png" />
+        </p></a>
+    <div id="Contor9" style="display: none">
+        <table style="width: 100%;font-size: 14px; ">
+            <tr>
+            </tr>
+        </table>
+        <table width="100%" id="addTable9" style="text-align: center" runat="server">
+        </table>
+        <table class="HeadList">
+            <a onclick="ym_add7()" id="btn_add_8" runat="server"><img alt="添加" width="30%" src="img/112.png" /></a>
+            <a onclick="hiddendiv9()"><img alt="收起" width="30%" src="img/114.png" /></a>
+        </table>
+    </div>
+
+    <a href="javascript:showdiv10()" id="strHref10" >
+        <p id="yButton" runat="server">
+            印LOGO<img id="img_y" alt="展开" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png" />
+        </p></a>
+    <div id="Contor10" style="display: none">
+        <table style="width: 100%;font-size: 14px; ">
+
+        </table>
+        <table width="100%" id="addTable10" style="text-align: center" runat="server">
+        </table>
+        <table class="HeadList">
+            <a onclick="ym_add8()" id="btn_add_9" runat="server"><img alt="添加" width="30%" src="img/112.png" /></a>
+            <a onclick="hiddendiv10()"><img alt="收起" width="30%" src="img/114.png" /></a>
+        </table>
+    </div>
+    <div id="Button2" runat="server"><a href="#">
+        <button type="submit" onclick="aObject(1)" style="background-color: #0b486b; color: #fff; border: none;  margin-top: 20px" >
+            <img style="width: 65%; max-width: 80px" src="img/117.png" alt="保存" />
+        </button>
+    </a><a href="#">
+        <button type="submit" onclick="aObject(2)" style="background-color: #0b486b; color: #fff; border: none;">
+            <img style="width: 65%; max-width: 80px" src="img/118.png" alt="提交" />
+        </button>
+    </a></div>
+    <div id="webmsg" style="margin-left:15px" runat="server"></div>
+</form>
+</body>
+</html>

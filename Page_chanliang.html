@@ -1,0 +1,262 @@
+
+
+<!DOCTYPE >
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-320x460.png" />
+    <meta name="author" content="FamousThemes" />
+    <meta name="description" content="GoMobile - A next generation web app theme" />
+    <meta name="keywords" content="mobile web app, mobile template, mobile design, mobile app design, mobile app theme, mobile wordpress theme, my mobile app" />
+    <link rel="stylesheet" href="Style/Page_chanliang.css">
+    <script type="javascript" src="Js/Page_chanliang.js"></script>
+    <title>Page_jihuayuan</title>
+
+    <script type="text/javascript" language="javascript">
+        var jp_count = 0;
+        var qp_count = 0;
+        var bp_count = 0;
+        var ts_count = 0;
+        function addLine1() {
+            var newLine = addTable1.rows.length;
+            var row = addTable1.insertRow(newLine);
+
+            jp_count++;
+            var col = row.insertCell(0);
+            col.innerHTML =  "<input name=\"jp_lx_" + jp_count + "\" type='text'  style='width: 59%; margin-left: 0 ' >" +
+                    "<input name=\"jp_sl_" + jp_count + "\" type='text' style='width:35%;max-width:180px '>"
+
+        }
+        function delLine1() {
+            var i;
+            var count;
+            count = addTable1.rows.length;
+            if (count > 0) {
+                addTable1.deleteRow(addTable1.rows.length - 1)
+                for (i = 0; i < count - 1; i++) {
+                    //if(document.chk[i].checked){
+                    //alert("aa");
+                    //}
+                }
+            }
+        }
+        function addLine2() {
+
+            var newLine = addTable2.rows.length;
+            var row = addTable2.insertRow(newLine);
+            qp_count++;
+            var col = row.insertCell(0);
+            col.innerHTML =  "<input name=\"qp_lx_" + qp_count + "\" type='text'   style='width: 59%; margin-left: 0' >" +
+                    "<input name=\"qp_sl_" + qp_count + "\" type='text' style='width:35%;max-width:180px '>"
+        }
+        function delLine2() {
+            var i;
+            var count;
+            count = addTable2.rows.length;
+            if (count > 0) {
+                addTable2.deleteRow(addTable2.rows.length - 1)
+                for (i = 0; i < count - 1; i++) {
+                    //if(document.chk[i].checked){
+                    //alert("aa");
+                    //}
+                }
+            }
+        }
+
+        function addLine4() {
+            var newLine = addTable4.rows.length;
+            var row = addTable4.insertRow(newLine);
+            ts_count++;
+            var col = row.insertCell(0);
+            col.innerHTML =  "<input name=\"ts_lx_" + ts_count + "\" type='text'  style='width: 59%; margin-left: 0'  >" +
+                    "<input name=\"ts_sl_" + ts_count + "\" type='text' style='width:35%;max-width:180px '>"
+
+        }
+        function delLine4() {
+            var i;
+            var count;
+            count = addTable4.rows.length;
+            if (count > 0) {
+                addTable4.deleteRow(addTable4.rows.length - 1)
+                for (i = 0; i < count - 1; i++) {
+                    //if(document.chk[i].checked){
+                    //alert("aa");
+                    //}
+                }
+            }
+        }
+    </script>
+    <script type="text/javascript" language="JavaScript">
+        function showdiv1() {
+            document.getElementById('Contor1').style.display = "block";
+            document.getElementById('img_1').style.display="none";
+            document.getElementById('aButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref1').href = "javascript:hiddendiv1()";
+        }
+        function hiddendiv1() {
+            document.getElementById('Contor1').style.display = "none";
+            document.getElementById('img_1').style.display="block";
+            document.getElementById('aButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref1').href = "javascript:showdiv1()"
+        }
+
+        function showdiv2() {
+            document.getElementById('Contor2').style.display = "block";
+            document.getElementById('img_2').style.display="none";
+            document.getElementById('bButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref2').href = "javascript:hiddendiv2()";
+        }
+        function hiddendiv2() {
+            document.getElementById('Contor2').style.display = "none";
+            document.getElementById('img_2').style.display="block";
+            document.getElementById('bButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref2').href = "javascript:showdiv2()"
+        }
+
+
+        function showdiv4() {
+            document.getElementById('Contor4').style.display = "block";
+            document.getElementById('img_5').style.display="none";
+            document.getElementById('dButton').style.backgroundColor = '#0467a0';
+            document.getElementById('strHref4').href = "javascript:hiddendiv4()";
+        }
+        function hiddendiv4() {
+            document.getElementById('Contor4').style.display = "none";
+            document.getElementById('img_5').style.display="block";
+            document.getElementById('dButton').style.backgroundColor = '#003553';
+            document.getElementById('strHref4').href = "javascript:showdiv4()"
+        }
+
+    </script>
+    <script>
+        function change_pic(){
+            var imgObj = document.getElementById("caocao_pic");
+            var Flag=(imgObj.getAttribute("src",2)=="img/116.png")
+            imgObj.src=Flag?"img/119.png":"img/116.png";
+            var sum_1=document.getElementById('SUM');
+            sum_1.value=sum_1.value=='1'?'2':'1';
+        }
+    </script>
+    <script language="JavaScript">
+        var i=0;
+        function aObject() {
+            i=1;
+        }
+        function  Alert() {
+            var a=confirm("确定要提交吗");
+            if(a==true)
+            {
+                if(i==0)
+                {
+                    document.getElementById('Object').action="33333.html?save=1";}
+                else
+                {
+                    document.getElementById('Object').action="33333.html?submit=1";}
+                return true;
+            }
+            else {
+                return false;
+            }
+
+        }
+    </script>
+</head>
+<body>
+<form id="Object" action="33333.html" onsubmit="return Alert()" method="post">
+<div id="Head_1">
+      <table style="width: 100%; text-align: center">
+          <tr >
+              <td>
+                  <a href="index.html">
+                  <img style="width: 65%; max-width: 40px" src="img/115.png">
+              </a>
+              </td>
+              <td>
+                  <p>04月29日  大白班</p>
+              </td>
+              <td>
+                  <a href="#">
+                  <img style="width: 65%; max-width: 40px" id="caocao_pic" onClick="change_pic()" alt="工厂" src="img/116.png">
+                      <input type="hidden" name="fac" value="1" id="SUM">
+                      </a>
+              </td>
+          </tr>
+      </table>
+</div>
+    <a href="javascript:showdiv1()" id="strHref1">
+        <p id="aButton">
+            光整精抛<img id="img_1" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png">
+        </p>
+
+    </a>
+    <div id="Contor1" style="display: none">
+        <table style="width: 100%;font-size: 14px; ">
+        <tr>
+            <td style="position:relative;left: 12%;"><h3>轮&nbsp;型</h3></td>
+            <td style="position:relative;left: 16%"><h3>数&nbsp;量</h3></td>
+        </tr>
+            </table>
+        <table width="100%" id="addTable1" style="text-align: center">
+        </table>
+        <div class="HeadList">
+            <a onclick="addLine1()"><img alt="添加" width="20%" src="img/112.png" /></a>
+            <a onclick="delLine1()"><img alt="删除" width="20%" src="img/113.png" /></a>
+            <a onclick="hiddendiv1()"><img alt="收起" width="20%" src="img/114.png" /></a>
+        </div>
+    </div>
+    <a href="javascript:showdiv2()" id="strHref2">
+        <p id="bButton">
+            光整全抛<img id="img_2" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png">
+        </p></a>
+    <div id="Contor2" style="display: none">
+        <table style="width: 100%;font-size: 14px; ">
+            <tr>
+                <td style="position:relative;left: 12%;"><h3>轮&nbsp;型</h3></td>
+                <td style="position:relative;left: 16%"><h3>数&nbsp;量</h3></td>
+            </tr>
+        </table>
+        <table width="100%" id="addTable2" style="text-align: center">
+        </table>
+        <div class="HeadList">
+            <a onclick="addLine2()"><img alt="添加" width="20%" src="img/112.png" /></a>
+            <a onclick="delLine2()"><img alt="删除" width="20%" src="img/113.png" /></a>
+            <a onclick="hiddendiv2()"><img alt="收起" width="20%" src="img/114.png" /></a>
+        </div>
+    </div>
+
+    <a href="javascript:showdiv4()" id="strHref4" >
+        <p id="dButton">
+            光整套色<img id="img_5" style="width: 10%; max-width:20px;float: right; margin-top: 1%" src="img/121.png">
+        </p></a>
+    <div id="Contor4" style="display: none">
+        <table style="width: 100%;font-size: 14px; ">
+            <tr>
+                <td style="position:relative;left: 12%;"><h3>轮&nbsp;型</h3></td>
+                <td style="position:relative;left: 16%"><h3>数&nbsp;量</h3></td>
+            </tr>
+        </table>
+        <table width="100%" id="addTable4" style="text-align: center">
+        </table>
+        <table class="HeadList">
+            <a onclick="addLine4()"><img alt="添加" width="20%" src="img/112.png" /></a>
+            <a onclick="delLine4()"><img alt="删除" width="20%" src="img/113.png" /></a>
+            <a onclick="hiddendiv4()"><img alt="收起" width="20%" src="img/114.png" /></a>
+        </table>
+    </div>
+    <div id="Button2"><a href="#">
+        <button type="submit" style="background-color: #0b486b; color: #fff; border: none;  margin-top: 20px" >
+            <img style="width: 65%; max-width: 80px" src="img/117.png">
+        </button>
+    </a><a href="#">
+        <button type="submit" onclick="aObject()" style="background-color: #0b486b; color: #fff; border: none;">
+            <img style="width: 65%; max-width: 80px" src="img/118.png">
+        </button>
+    </a></div>
+</form>
+</body>
+</html>

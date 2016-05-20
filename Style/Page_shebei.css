@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    color: #fff;
+    max-width: 800px;
+    background-color:#0b486b;
+}
+#Head_1{
+    width: 100%;
+    background-color: #003553;
+    max-height: 60px;
+}
+a{
+    text-decoration: none;font-size: 20px;
+    color: #fff;
+}
+
+#Button2{
+    text-align: center;
+    margin-top: 20px;
+}
+#Button button{
+    background-color: #900;
+    color: #fff;
+}
+#Button2 a{
+    margin: 0 20px;
+}
+#Content{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+input{
+    background-color:#fff;
+    border: none;
+    text-align: center;
+    padding:4px 0;
+    margin-top: 2%;
+    color:#111;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 90%;
+}
+.aHead{
+    background-color: #003553;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+
+}
+.MYtable{
+    width: 94%;
+    margin: 0 auto;
+
+}
+.MYtable tr td{
+    text-align: center;
+    width: 30%;
+}
+
+#Contor1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#Contor2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#Contor3{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#Contor4{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#Contor5{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#Contor6{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#Contor7{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#Contor8{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.Hr{
+    margin-bottom: 9%;
+}
+p{
+    font-size: 15px;
+}

@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    color: #fff;
+    max-width: 800px;
+    background-color:#0b486b;
+}
+#Head_1{
+    width: 100%;
+    background-color: #003553;
+    max-height: 60px;
+}
+a{
+    text-decoration: none;font-size: 20px;
+    color: #fff;
+}
+#aButton{
+    width: 85%;
+    background-color: #003553;
+    margin: 10px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+    margin:2% auto;
+}
+#bButton{
+    width: 85%;
+    background-color: #003553;
+    margin:2% auto;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+
+}
+#dButton{
+    width: 85%;
+    background-color: #003553;
+    margin: 10px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align:center;
+    margin:2% auto;
+}
+.Button a{
+    text-decoration: none;font-size: 20px;
+    color: #fff;
+    display: block;
+}
+#Contor1{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Contor2{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Contor4{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+h3{
+    margin:3px;
+}
+
+p{
+    margin: 0 auto;
+    padding: 10px;
+}
+#Button2{
+    text-align: center;
+    margin-top: 40px;
+}
+#Button button{
+    background-color: #900;
+    color: #fff;
+}
+#Button2 a{
+    margin: 0 20px;
+}
+input{
+    background-color:#fff;
+    border: none;
+    text-align: center;
+    padding:6px 0;
+    margin-left:1% ;
+    margin-top: 2%;
+    color:#111;
+    width:17%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select
+{
+    background-color:#003553;
+    width:30%;
+    max-width: 140px;
+    padding:3px 0;
+    font-size:18px;
+    color:#fff;
+    margin-right: 9%;
+    float: right;
+    margin-top: 2%;
+}
+option
+{
+    background-color:#003553;
+}
+td{
+    text-align: center;
+}
